@@ -2,12 +2,17 @@
 'use strict';
 
 
-function makePerson(id, name) {
+function make(id, name) {
   return /* record */[
           /* id */id,
           /* name */name
         ];
 }
 
-exports.makePerson = makePerson;
+var Person = /* module */[/* make */make];
+
+var Company = /* module */[];
+
+exports.Person  = Person;
+exports.Company = Company;
 /* No side effect */
