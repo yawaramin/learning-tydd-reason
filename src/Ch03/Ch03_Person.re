@@ -1,7 +1,7 @@
 /* src/Ch03/Ch03_Person.re */
 module Name = {
   type t = string;
-  let make(string) = String.capitalize(String.trim(string));
+  let make(string) = String.(capitalize(trim(string)));
   let toString(t) = t;
 };
 
