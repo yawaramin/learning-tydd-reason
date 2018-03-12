@@ -14,6 +14,6 @@
   "namespace": true,
   "refmt": 3,
   "warnings": {
-    "error": "+3"
+    "error": "+3+8"
   }
 }
